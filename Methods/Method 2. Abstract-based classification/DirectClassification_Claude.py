@@ -54,6 +54,9 @@ def find_most_similar_string(target, string_list):
 
     return most_similar[0]
 
+with open(r"C:\Users\Administrator\PythonProjects\ArticleClassification\Data\Summary_insight\key_dict.json", 'r', encoding='utf-8') as f:
+    class_description = json.load(f)
+
 for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleClassification\Data\Abstract\AbstractData"):
     # if review_file.split(".")[0] + ".pkl" in os.listdir("../../Results/GPT-4o/DirectClassification"):
     #     continue
@@ -88,6 +91,8 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
     instruction = """
     Please judge which category this article belongs to based on the article title and abstract below.
     Below are the category candidates: %s
+    Below are the descriptions of each category: %s
+
     Article title: %s
     Article abstract: %s
     
@@ -103,6 +108,7 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
 
             user_prompt = instruction % (
                 "; ".join(keys),  # 将keys的值作为分类候选项
+                "; ".join([f"{k}: {class_description[review_file[:-5]][k]}" for k in keys]),  # 添加分类描述
                 article,
                 abstract
             )

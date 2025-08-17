@@ -54,7 +54,13 @@ def find_most_similar_string(target, string_list):
 
     return most_similar[0]
 
-for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleClassification\Data\Abstract\AbstractData"):
+
+with open(r"C:\Users\Administrator\PythonProjects\ArticleClassification\Data\Summary_insight\key_dict.json", 'r',
+          encoding='utf-8') as f:
+    class_description = json.load(f)
+
+for review_file in os.listdir(
+        r"C:\Users\Administrator\PythonProjects\ArticleClassification\Data\Abstract\AbstractData"):
     # if review_file.split(".")[0] + ".pkl" in os.listdir("../../Results/GPT-4o/DirectClassification"):
     #     continue
     # if review_file in ['Review1.json']:
@@ -73,7 +79,6 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
     result['keys_dict'] = keys_dict
     result['original_data'] = data
 
-
     # 制作y_true
     y_true = []
     y_pred = []
@@ -88,9 +93,11 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
     instruction = """
     Please judge which category this article belongs to based on the article title and abstract below.
     Below are the category candidates: %s
+    Below are the descriptions of each category: %s
+
     Article title: %s
     Article abstract: %s
-    
+
     Return your answer in JSON format. Here is an example of JSON format:
     {
     "Choice": "Your choice",
@@ -103,6 +110,7 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
 
             user_prompt = instruction % (
                 "; ".join(keys),  # 将keys的值作为分类候选项
+                "; ".join([f"{k}: {class_description[review_file[:-5]][k]}" for k in keys]),  # 添加分类描述
                 article,
                 abstract
             )
@@ -136,7 +144,7 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
     result['y_pred'] = y_pred
 
     # 存储结果
-    output_file = fr"C:\Users\Administrator\PythonProjects\ArticleClassification\Results\Deepseek\DirectClassification/{review_file.split('.')[0]}.pkl"
+    output_file = fr"C:\Users\Administrator\PythonProjects\ArticleClassification\Results\Claude\DirectClassification/{review_file.split('.')[0]}.pkl"
     with open(output_file, 'wb') as f:
         pickle.dump(result, f)
 
@@ -145,4 +153,3 @@ for review_file in os.listdir(r"C:\Users\Administrator\PythonProjects\ArticleCla
     print("准确率：", accuracy_score(y_true, y_pred))
     print("宏平均F1：", f1_score(y_true, y_pred, average='macro'))
     print("加权F1：", f1_score(y_true, y_pred, average='weighted'))
-

@@ -4,88 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f6711f-a720-48e4-980e-60d125676bc6" name="更改" comment="all static data complete">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DatasetExplore/ArticleLengthDistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DatasetExplore/ArticleTypeCalculation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DatasetExplore/ArxivJudgement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/Method 4. Confidence-weighted voting/PerformanceEvaluation_per-model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Methods/Method 4. Confidence-weighted voting/Small dataset confidence estimation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultsCode/OverallResultCalculation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultsCode/Visualization/Figure 2B OverallHistogram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResultsCode/Visualization/Figure 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ArticleClassification.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Benchmarks and Datasets/2306.04618v2.Revisiting_Out_of_distribution_Robustness_in_NLP__Benchmark__Analysis__and_LLMs_Evaluations.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Benchmarks and Datasets/2306.05087v2.PandaLM__An_Automatic_Evaluation_Benchmark_for_LLM_Instruction_Tuning_Optimization.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Benchmarks and Datasets/2306.05179v2.M3Exam__A_Multilingual__Multimodal__Multilevel_Benchmark_for_Examining_Large_Language_Models.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Benchmarks and Datasets/2306.05685v4.Judging_LLM_as_a_Judge_with_MT_Bench_and_Chatbot_Arena.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Benchmarks and Datasets/2306.05783v3.Xiezhi__An_Ever_Updating_Benchmark_for_Holistic_Domain_Knowledge_Evaluation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2303.16421v3.ChatGPT_is_a_Knowledgeable_but_Inexperienced_Solver__An_Investigation_of_Commonsense_Problem_in_Large_Language_Models.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2303.16421v3.ChatGPT_is_a_Knowledgeable_but_Inexperienced_Solver__An_Investigation_of_Commonsense_Problem_in_Large_Language_Models.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2305.13711v1.LLM_Eval__Unified_Multi_Dimensional_Automatic_Evaluation_for_Open_Domain_Conversations_with_Large_Language_Models.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2305.13711v1.LLM_Eval__Unified_Multi_Dimensional_Automatic_Evaluation_for_Open_Domain_Conversations_with_Large_Language_Models.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2306.04181v2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2306.04610v1.The_Two_Word_Test__A_Semantic_Benchmark_for_Large_Language_Models.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2306.04757v3.INSTRUCTEVAL__Towards_Holistic_Evaluation_of_Instruction_Tuned_Large_Language_Models.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2306.05179v2.M3Exam__A_Multilingual__Multimodal__Multilevel_Benchmark_for_Examining_Large_Language_Models.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Evaluation of Natural Language Processing Tasks/2306.06264v1.Measuring_and_Modifying_Factual_Knowledge_in_Large_Language_Models.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Multimodal and Tool Application Evaluation/2205.00445v1.MRKL_Systems__A_modular__neuro_symbolic_architecture_that_combines_large_language_models__external_knowledge_sources_and_discrete_reasoning.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review11/Multimodal and Tool Application Evaluation/2205.00445v1.MRKL_Systems__A_modular__neuro_symbolic_architecture_that_combines_large_language_models__external_knowledge_sources_and_discrete_reasoning.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review11/Robustness, Ethics, and Bias Assessment/2301.01768v1.The_political_ideology_of_conversational_AI__Converging_evidence_on_ChatGPT_s_pro_environmental__left_libertarian_orientation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review11/Robustness, Ethics, and Bias Assessment/2301.01768v1.The_political_ideology_of_conversational_AI__Converging_evidence_on_ChatGPT_s_pro_environmental__left_libertarian_orientation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Clinical application scenarios/2307.12345v1.Tell_me__what_are_you_most_afraid_of__Exploring_the_Effects_of_Agent_Representation_on_Information_Disclosure_in_Human_Chatbot_Interaction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review12/Clinical application scenarios/2307.12345v1.Tell_me__what_are_you_most_afraid_of__Exploring_the_Effects_of_Agent_Representation_on_Information_Disclosure_in_Human_Chatbot_Interaction.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/1906.05474v2.Transfer_Learning_in_Biomedical_Natural_Language_Processing__An_Evaluation_of_BERT_and_ELMo_on_Ten_Benchmarking_Datasets.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2004.10964v3.Don_t_Stop_Pretraining__Adapt_Language_Models_to_Domains_and_Tasks.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2007.15779v6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2022.findings-emnlp.398.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2101.00190v1.Prefix_Tuning__Optimizing_Continuous_Prompts_for_Generation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2303.14070v5.ChatDoctor__A_Medical_Chat_Model_Fine_Tuned_on_a_Large_Language_Model_Meta_AI__LLaMA__Using_Medical_Domain_Knowledge.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2303.14070v5.ChatDoctor__A_Medical_Chat_Model_Fine_Tuned_on_a_Large_Language_Model_Meta_AI__LLaMA__Using_Medical_Domain_Knowledge.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2307.00589v2.MedCPT__Contrastive_Pre_trained_Transformers_with_Large_scale_PubMed_Search_Logs_for_Zero_shot_Biomedical_Information_Retrieval.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2307.00589v2.MedCPT__Contrastive_Pre_trained_Transformers_with_Large_scale_PubMed_Search_Logs_for_Zero_shot_Biomedical_Information_Retrieval.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2308.03549v3.Zhongjing__Enhancing_the_Chinese_Medical_Capabilities_of_Large_Language_Model_through_Expert_Feedback_and_Real_world_Multi_turn_Dialogue.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2308.03549v3.Zhongjing__Enhancing_the_Chinese_Medical_Capabilities_of_Large_Language_Model_through_Expert_Feedback_and_Real_world_Multi_turn_Dialogue.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2310.15896v2.BianQue__Balancing_the_Questioning_and_Suggestion_Ability_of_Health_LLMs_with_Multi_turn_Health_Conversations_Polished_by_ChatGPT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PDF/Review12/Development Methods of Medical Large Language Models/2310.15896v2.BianQue__Balancing_the_Questioning_and_Suggestion_Ability_of_Health_LLMs_with_Multi_turn_Health_Conversations_Polished_by_ChatGPT.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/Prompt.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法1-DirectClassification.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法2-Kmeans+LLM聚类+分类+LLM后筛选.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法2-Kmeans+LLM聚类+分类.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法2-Kmeans聚类后分类(简单匹配分类).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法2-LLM性能评价.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法3.1 Key-insights Extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Key-insights Extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/方法3.2 key-insights DirectClassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/生成key_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/获取摘要.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/转换json数据格式.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/转换历史数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/History/转清空son数据格式.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法0-kmeans/方法2-Kmeans聚类后分类(简单匹配分类).py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 1. K-means clustering/K-means clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_Claude.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Claude.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_Deepseek.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Deepseek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_Doubao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Doubao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_GPT4o.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_Gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Gemini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-DirectClassification_Grok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法1-直接分类/方法1-性能评价.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/PerformanceEvaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/性能评价.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/PerformanceEvaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_Claude.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_Claude.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_Deepseek.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_Deepseek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_Doubao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_Doubao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_GPT4o.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_GPT4o.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_Gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_Gemini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法2-Key-insight/方法3.2 key-insights DirectClassification_Grok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 3. Key-insight-based classification/key-insights DirectClassification_Grok.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法3-multi-agent vote/性能评价_per-model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/方法3-multi-agent vote/性能评价_per_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 4. Confidence-weighted voting/PerformanceEvaluation_per_review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/Deepseek/key-insights-direction/Review1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Results/Deepseek/key-insights-direction/Review1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/GPT-4o/key-insights-direction/Review1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Results/GPT-4o/key-insights-direction/Review1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/Voting/result_per_review.json" beforeDir="false" afterPath="$PROJECT_DIR$/Results/Voting/result_per_review.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Figure 1 整体结果说明-柱状图.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Figure 2 雷达图说明分模型结果.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResultsCode/Visualization/Figure 2A RadarChart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Table 3 统计检验.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResultsCode/Statistical tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_without_kmeans.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/综合性能计算.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/论文数量统计.py" beforeDir="false" />
+    <list default="true" id="96f6711f-a720-48e4-980e-60d125676bc6" name="更改" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/ArticleClassification.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/ReviewPaperList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Claude.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Claude.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Deepseek.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Deepseek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Doubao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Doubao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Gemini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +42,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SongZihan/ArticleClassification.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/SongZihan/ArticleClassification_ForPublish.git&quot;,
     &quot;accountId&quot;: &quot;5595cccb-382b-4bfd-8204-52e7e506d9a9&quot;
   }
 }</component>
@@ -126,44 +57,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ArticleLengthDistribution.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ArticleTypeCalculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ArxivJudgement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 1 整体结果说明-柱状图 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 2 雷达图说明分模型结果.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 2A 雷达图说明分模型结果 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 2B 整体柱状图.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 3 嵌入可视化对比.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 3A 嵌入可视化对比_Abstract.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure 3B 嵌入可视化对比_Key_insight (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Figure1 整体结果说明-柱状图.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Table 3 统计检验.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Table 4 整体结果说明.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.小样本置信度评价.executor&quot;: &quot;Run&quot;,
-    &quot;Python.性能评价_per-model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.性能评价_per_review.executor&quot;: &quot;Run&quot;,
-    &quot;Python.方法1-DirectClassification_GPT4o.executor&quot;: &quot;Run&quot;,
-    &quot;Python.方法3.2 key-insights DirectClassification_Deepseek.executor&quot;: &quot;Run&quot;,
-    &quot;Python.方法3.2 key-insights DirectClassification_GPT4o.executor&quot;: &quot;Run&quot;,
-    &quot;Python.论文数量统计.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/24033/PycharmProjects/ArticleClassification_ForPublish&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ArticleLengthDistribution.executor": "Run",
+    "Python.ArticleTypeCalculation.executor": "Run",
+    "Python.ArxivJudgement.executor": "Run",
+    "Python.DirectClassification_Grok.executor": "Debug",
+    "Python.Figure 1 整体结果说明-柱状图 (1).executor": "Run",
+    "Python.Figure 2 雷达图说明分模型结果.executor": "Run",
+    "Python.Figure 2A 雷达图说明分模型结果 (1).executor": "Run",
+    "Python.Figure 2B 整体柱状图.executor": "Run",
+    "Python.Figure 3 (1).executor": "Run",
+    "Python.Figure 3 嵌入可视化对比.executor": "Run",
+    "Python.Figure 3A 嵌入可视化对比_Abstract.executor": "Run",
+    "Python.Figure 3B 嵌入可视化对比_Key_insight (1).executor": "Run",
+    "Python.Figure1 整体结果说明-柱状图.executor": "Run",
+    "Python.Table 3 统计检验.executor": "Run",
+    "Python.Table 4 整体结果说明.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.小样本置信度评价.executor": "Run",
+    "Python.性能评价_per-model.executor": "Run",
+    "Python.性能评价_per_review.executor": "Run",
+    "Python.方法1-DirectClassification_GPT4o.executor": "Run",
+    "Python.方法3.2 key-insights DirectClassification_Deepseek.executor": "Run",
+    "Python.方法3.2 key-insights DirectClassification_GPT4o.executor": "Run",
+    "Python.论文数量统计.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/24033/PycharmProjects/ArticleClassification_ForPublish",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\Visualization" />
@@ -177,7 +112,7 @@
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\ResultsCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ArticleTypeCalculation">
+  <component name="RunManager" selected="Python.DirectClassification_Grok">
     <configuration name="ArticleTypeCalculation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ArticleClassification" />
       <option name="ENV_FILES" value="" />
@@ -202,6 +137,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DirectClassification_Grok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleClassification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Figure 2A RadarChart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ArticleClassification" />
       <option name="ENV_FILES" value="" />
@@ -218,30 +177,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Visualization\Figure 2A RadarChart.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Figure 2B OverallHistogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ArticleClassification" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Visualization\Figure 2B OverallHistogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +258,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.DirectClassification_Grok" />
       <item itemvalue="Python.ArticleTypeCalculation" />
       <item itemvalue="Python.Figure 3" />
       <item itemvalue="Python.Figure 3 (1)" />
       <item itemvalue="Python.Figure 2A RadarChart" />
-      <item itemvalue="Python.Figure 2B OverallHistogram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DirectClassification_Grok" />
         <item itemvalue="Python.ArticleTypeCalculation" />
         <item itemvalue="Python.Figure 3 (1)" />
         <item itemvalue="Python.Figure 3" />
         <item itemvalue="Python.Figure 2A RadarChart" />
-        <item itemvalue="Python.Figure 2B OverallHistogram" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +310,9 @@
       <workItem from="1755149390976" duration="499000" />
       <workItem from="1755151057510" duration="3348000" />
       <workItem from="1755156498822" duration="451000" />
+      <workItem from="1755157002128" duration="1587000" />
+      <workItem from="1755232816972" duration="600000" />
+      <workItem from="1755471992779" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="to visual">
       <option name="closed" value="true" />
@@ -400,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750837801795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1755157076867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755157076867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,9 +367,11 @@
     <MESSAGE value="to visual" />
     <MESSAGE value="figure 1 complete" />
     <MESSAGE value="all static data complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="all static data complete" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ArticleClassification_ForPublish$DirectClassification_Grok.coverage" NAME="DirectClassification_Grok 覆盖结果" MODIFIED="1755472559755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification" />
     <SUITE FILE_PATH="coverage/ArticleClassification$.coverage" NAME="论文数量统计 覆盖结果" MODIFIED="1750647056343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ArticleClassification$1_DirectClassification_GPT4o.coverage" NAME="方法1-DirectClassification_GPT4o 覆盖结果" MODIFIED="1750727714117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Methods/方法1-直接分类" />
     <SUITE FILE_PATH="coverage/ArticleClassification$_per_review.coverage" NAME="性能评价_per_review 覆盖结果" MODIFIED="1750753063350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Methods/方法3-multi-agent vote" />
