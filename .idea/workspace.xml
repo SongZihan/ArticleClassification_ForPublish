@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f6711f-a720-48e4-980e-60d125676bc6" name="更改" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/ArticleClassification.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/ReviewPaperList" afterDir="false" />
+    <list default="true" id="96f6711f-a720-48e4-980e-60d125676bc6" name="更改" comment="modification">
+      <change afterPath="$PROJECT_DIR$/History/Summary_insight_backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/History/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Claude.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Claude.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Deepseek.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Deepseek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Doubao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Doubao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Key-insights Extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Key-insights Extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ReviewPaperList" beforeDir="false" afterPath="$PROJECT_DIR$/Data/TitleAbstractExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Gemini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +70,13 @@
     "Python.Figure 3A 嵌入可视化对比_Abstract.executor": "Run",
     "Python.Figure 3B 嵌入可视化对比_Key_insight (1).executor": "Run",
     "Python.Figure1 整体结果说明-柱状图.executor": "Run",
+    "Python.Key-insights Extraction.executor": "Run",
     "Python.Table 3 统计检验.executor": "Run",
     "Python.Table 4 整体结果说明.executor": "Run",
+    "Python.TitleAbstractExtraction.executor": "Run",
+    "Python.check.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
     "Python.小样本置信度评价.executor": "Run",
     "Python.性能评价_per-model.executor": "Run",
     "Python.性能评价_per_review.executor": "Run",
@@ -89,54 +89,35 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/24033/PycharmProjects/ArticleClassification_ForPublish",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/24033/PycharmProjects/ArticleClassification_ForPublish/History",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History" />
+      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Data\ReviewFiles" />
+      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Data\PDF" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\Visualization" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\ResultsCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\ResultsCode" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Data" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\History" />
-      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\ResultsCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DirectClassification_Grok">
-    <configuration name="ArticleTypeCalculation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ArticleClassification" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExtraAnalysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExtraAnalysis/ArticleTypeCalculation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Key-insights Extraction">
     <configuration name="DirectClassification_Grok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ArticleClassification" />
       <option name="ENV_FILES" value="" />
@@ -161,70 +142,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Figure 2A RadarChart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Key-insights Extraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ArticleClassification" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Visualization\Figure 2A RadarChart.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Figure 3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ArticleClassification" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization/Figure 3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Figure 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ArticleClassification" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification\Visualization\Figure 3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Key-insights Extraction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,20 +187,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TitleAbstractExtraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleClassification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/TitleAbstractExtraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleClassification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History\check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleClassification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.Key-insights Extraction" />
+      <item itemvalue="Python.TitleAbstractExtraction" />
+      <item itemvalue="Python.check" />
+      <item itemvalue="Python.test2" />
       <item itemvalue="Python.DirectClassification_Grok" />
-      <item itemvalue="Python.ArticleTypeCalculation" />
-      <item itemvalue="Python.Figure 3" />
-      <item itemvalue="Python.Figure 3 (1)" />
-      <item itemvalue="Python.Figure 2A RadarChart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Key-insights Extraction" />
+        <item itemvalue="Python.check" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.TitleAbstractExtraction" />
         <item itemvalue="Python.DirectClassification_Grok" />
-        <item itemvalue="Python.ArticleTypeCalculation" />
-        <item itemvalue="Python.Figure 3 (1)" />
-        <item itemvalue="Python.Figure 3" />
-        <item itemvalue="Python.Figure 2A RadarChart" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +305,11 @@
       <workItem from="1755156498822" duration="451000" />
       <workItem from="1755157002128" duration="1587000" />
       <workItem from="1755232816972" duration="600000" />
-      <workItem from="1755471992779" duration="713000" />
+      <workItem from="1755471992779" duration="825000" />
+      <workItem from="1755497981926" duration="32000" />
+      <workItem from="1755657898226" duration="12000" />
+      <workItem from="1755760073191" duration="613000" />
+      <workItem from="1764811935801" duration="17694000" />
     </task>
     <task id="LOCAL-00001" summary="to visual">
       <option name="closed" value="true" />
@@ -346,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755157076867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modification">
+      <option name="closed" value="true" />
+      <created>1755472729551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755472729551</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +373,8 @@
     <MESSAGE value="figure 1 complete" />
     <MESSAGE value="all static data complete" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ArticleClassification_ForPublish$DirectClassification_Grok.coverage" NAME="DirectClassification_Grok 覆盖结果" MODIFIED="1755472559755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification" />

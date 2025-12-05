@@ -23,7 +23,6 @@ def GPT4oPromptGenerate(system_prompt, user_prompt):
         {"role": "user", "content": user_prompt},
     ],response_format={"type": "json_object"},
     temperature=0.7, top_p=0.95
-
                                                 # ,temperature=0.0
                                                 )
     return completion.choices[0].message.content

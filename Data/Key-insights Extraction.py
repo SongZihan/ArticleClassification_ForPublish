@@ -6,16 +6,32 @@ import logging
 from pdfminer.high_level import extract_text
 import PyPDF2
 
-client = OpenAI(api_key="")
+# client = OpenAI(  base_url="https://openrouter.ai/api/v1",
+#     api_key="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")
+#
+# def GPT4oPromptGenerate(system_prompt, user_prompt):
+#     completion = client.chat.completions.create(model="openai/gpt-4o", messages=[
+#         {"role": "system", "content": system_prompt},
+#         {"role": "user", "content": user_prompt},
+#     ],
+#     temperature=0.7, top_p=0.95
+#                                                 )
+#     return completion.choices[0].message.content
+
+
+from volcenginesdkarkruntime import Ark
+client = Ark(api_key="14195777-fbc3-4414-9eb9-3af208af84be")
 
 def GPT4oPromptGenerate(system_prompt, user_prompt):
-    completion = client.chat.completions.create(model="gpt-4o", messages=[
+    completion = client.chat.completions.create(model="doubao-1.5-pro-32k-250115", messages=[
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
-    ],
-    temperature=0.7, top_p=0.95
+    ],response_format={"type": "json_object"}
+                                                # ,temperature=0.0
                                                 )
     return completion.choices[0].message.content
+
+
 
 def extract_text_from_pdf(pdf_path):
     # return extract_text(pdf_path)
@@ -64,6 +80,9 @@ with open(out_file, 'r', encoding='utf-8') as f:
 
 
 for review_folder_name in tqdm(os.listdir(base_dir)):
+    if review_folder_name not in ["Review13","Review14","Review15","Review16","Review17"]:
+        continue
+
     folder_path = os.path.join(base_dir, review_folder_name)
     if review_folder_name not in result:
         result[review_folder_name] = {}
@@ -92,6 +111,7 @@ for review_folder_name in tqdm(os.listdir(base_dir)):
                 text = ' '.join(text)
 
             try:
+                print(f"Now extracting {file_name} in {cluster_folder_name} in {review_folder_name}")
                 user_prompt = instruction + text
                 response = GPT4oPromptGenerate(system_prompt, user_prompt)
             except Exception as e:
