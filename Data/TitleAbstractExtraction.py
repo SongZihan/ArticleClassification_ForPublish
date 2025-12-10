@@ -36,7 +36,7 @@ You are an expert at parsing academic papers from plain text. Your task is to ex
 Paper text:
 """
 
-review_files = ["Review14","Review15","Review16","Review17"]
+review_files = ["Review14","Review2","Review6","Review7"]
 for review_file in tqdm(review_files):
     print(f"Now processing {review_file}=============================")
     target_review_folder = "./PDF/" + review_file

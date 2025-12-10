@@ -75,7 +75,7 @@ for file in os.listdir(base_path):
     result['y_pred'] = y_pred
     result['keys_dict'] = keys_dict
     result['original_data'] = data
-    output_file = f"./Results\JustKmeans/{file}"
+    output_file = f"./Results/TraditionalMethod\JustKmeans/{file}"
     with open(output_file, 'wb') as f:
         pickle.dump(result, f)
 

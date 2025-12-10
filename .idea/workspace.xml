@@ -5,14 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f6711f-a720-48e4-980e-60d125676bc6" name="更改" comment="modification">
-      <change afterPath="$PROJECT_DIR$/History/Summary_insight_backup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/History/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/History/Summary_insight_12_10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review11.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review12.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review14.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review6.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review7.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Abstract/AbstractData/Review8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review1.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review10.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review11.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review12.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review13.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review14.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review15.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review16.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review17.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review2.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review3.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review4.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review5.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review6.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review7.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review8.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Abstract/AbstractEmebedding/Review9.pkl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Key-insights Extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Key-insights Extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ReviewPaperList" beforeDir="false" afterPath="$PROJECT_DIR$/Data/TitleAbstractExtraction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_GPT4o.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight_embedding.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Summary_insight/Summary_insight_embedding.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TitleAbstractExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/TitleAbstractExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/Method 1. K-means clustering/K-means clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/Method 1. K-means clustering/K-means clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,10 +131,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History" />
+      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Data\ReviewFiles" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\Data\PDF" />
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\Visualization" />
-      <recent name="C:\Users\24033\PycharmProjects\ArticleClassification\ResultsCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History" />
@@ -118,30 +145,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.Key-insights Extraction">
-    <configuration name="DirectClassification_Grok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ArticleClassification" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Methods/Method 2. Abstract-based classification/DirectClassification_Grok.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Key-insights Extraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ArticleClassification" />
       <option name="ENV_FILES" value="" />
@@ -213,6 +216,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
@@ -221,6 +227,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\24033\PycharmProjects\ArticleClassification_ForPublish\History\check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleClassification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (ArticleClassification)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,19 +278,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.Key-insights Extraction" />
       <item itemvalue="Python.TitleAbstractExtraction" />
       <item itemvalue="Python.check" />
       <item itemvalue="Python.test2" />
-      <item itemvalue="Python.DirectClassification_Grok" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Key-insights Extraction" />
-        <item itemvalue="Python.check" />
-        <item itemvalue="Python.test2" />
         <item itemvalue="Python.TitleAbstractExtraction" />
-        <item itemvalue="Python.DirectClassification_Grok" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.check" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +337,9 @@
       <workItem from="1755657898226" duration="12000" />
       <workItem from="1755760073191" duration="613000" />
       <workItem from="1764811935801" duration="17694000" />
+      <workItem from="1765172600997" duration="1730000" />
+      <workItem from="1765255814586" duration="2118000" />
+      <workItem from="1765325830826" duration="11989000" />
     </task>
     <task id="LOCAL-00001" summary="to visual">
       <option name="closed" value="true" />

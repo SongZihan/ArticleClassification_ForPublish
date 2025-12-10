@@ -80,7 +80,7 @@ with open(out_file, 'r', encoding='utf-8') as f:
 
 
 for review_folder_name in tqdm(os.listdir(base_dir)):
-    if review_folder_name not in ["Review13","Review14","Review15","Review16","Review17"]:
+    if review_folder_name not in ["Review2","Review6","Review4"]:
         continue
 
     folder_path = os.path.join(base_dir, review_folder_name)
